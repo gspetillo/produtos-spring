@@ -12,7 +12,7 @@ public class ProdutoModel {
 	public ProdutoModel() {
 	}
 
-	public ProdutoModel(long id, String nome, String sku, String descricao, double preco, String caracteristicas) {
+	public ProdutoModel(Long id, String nome, String sku, String descricao, double preco, String caracteristicas) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -22,11 +22,11 @@ public class ProdutoModel {
 		this.caracteristicas = caracteristicas;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 

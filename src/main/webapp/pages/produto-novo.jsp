@@ -39,7 +39,7 @@
 					
 					<h2>Produto</h2>
 					
-					<form action="XXXXXX" method="get">
+					<form action="${contextPath}/produto/new" method="post">
 					
 						<div class="form-group">
 							<label class="control-label" for="nome">Nome:</label>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="form-group">
 							<label class="control-label" for="nome">SKU:</label>
-							<input id="sku" value="" class="form-control" maxlength="50" size="50" />
+							<input type="text" name="sku" id="sku" class="form-control" maxlength="50" size="50" />
 							<font color="red"></font><br/>
 						</div>
 						
@@ -60,7 +60,7 @@
 						
 						<div class="form-group">
 							<label class="control-label" for="preco">Preço:</label>
-							<input type="text" id="preco" class="form-control" />
+							<input type="text" id="preco" name="preco" class="form-control" />
 							<font color="red"></font><br/>
 						</div>
 						
